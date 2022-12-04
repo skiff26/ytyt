@@ -208,7 +208,7 @@ body.lock{
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.8);
 	top: 0;
-	left: 100%;
+	// left: 100%;
 	opacity: 0;
 	visibility: hidden;
 	overflow-y: auto;
@@ -217,7 +217,7 @@ body.lock{
 	z-index: 100;
 }
  .popup.open{
-	left: 0;
+	// left: 0;
 	opacity: 1;
 	visibility: visible;
 }
@@ -1079,6 +1079,7 @@ background-color: #F9F8FD;
 			flex-wrap: wrap;
 			justify-content: center;
 			gap: 70px;
+
 			&:nth-child(2){
 				.block-price_2{
 					max-width: 158px;
